@@ -1,5 +1,4 @@
-console.log('sanity check')
 
 const headerInput = document.getElementById('header-input')
 
-//headerInput.onChange(() => console.log(headerInput))
+headerInput.addEventListener("change", e => console.log(e.target.value))
