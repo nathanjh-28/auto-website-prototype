@@ -25,3 +25,11 @@ headerInput.addEventListener("change", e => {
     updateH1()
 
 })
+
+document.getElementById('hide-btn').addEventListener('click', () => {
+    let formEl = document.getElementById('form');
+    if (formEl.style.display === 'none') formEl.style.display = 'inline-block';
+    else {
+        formEl.style.display = 'none';
+    }
+})
