@@ -98,4 +98,21 @@ h5,
 h6 {
     font-weight: 900;
     text-decoration: underline;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.subtitle {
+    font-style: italic;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+
 }
